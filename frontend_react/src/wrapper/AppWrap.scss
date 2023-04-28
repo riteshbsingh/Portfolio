@@ -1,0 +1,66 @@
+.mycopyright {
+
+
+    position: sticky;
+    z-index: 10;
+    top: 86vh;
+    left: 91vh;
+    // border: 2px solid red;
+    width: 60px;
+
+    p {
+        font-size: small;
+        text-align: center;
+    }
+
+    img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-left: 0.5rem;
+
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        margin-top: 0.25rem;
+
+        @media screen and (min-width:2000px) {
+            width: 100px;
+            height: 100px;
+        }
+
+        @media screen and (max-width:450px) {
+            border-radius: 50%;
+            height: 60px;
+         
+            margin-left: -0.5rem;
+            width: 60px;
+        }
+
+
+    }
+
+    @media screen and (min-width:2000px) {
+        top: 75vh;
+        left: 250vh;
+
+        p {
+            font-size: large;
+            margin-left: 1rem;
+        }
+
+        width: 60px;
+    }
+
+    @media screen and (min-width:768px) {
+        top: 88vh;
+        left: 250vh;
+      
+    }
+
+    @media screen and (min-width:450px) {
+        top: 88vh;
+        left: 250vh;
+    }
+}
