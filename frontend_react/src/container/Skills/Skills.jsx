@@ -49,28 +49,28 @@ const Skills = () => {
         </motion.div>
         <div className="app__skills-exp">
           {experiences?.map((experience) => (
-            <Tooltip
-              componentsProps={{
-                tooltip: {
-                  sx: {
-                    backgroundColor: "#fff",
-                    color: "#000",
-                    fontSize: "1rem",
-                    fontWeight: "500",
-                    border: "1px solid #cfc7c7",
-                    minWidth: "450px",
-                  },
-                },
-                arrow: {
-                  sx: {
-                    color: "#cfc7c7",
-                  },
-                },
-              }}
-              id={experience?.name}
-              title={experience?.desc}
-              arrow
-            >
+            // <Tooltip
+            //   componentsProps={{
+            //     tooltip: {
+            //       sx: {
+            //         backgroundColor: "#fff",
+            //         color: "#000",
+            //         fontSize: "1rem",
+            //         fontWeight: "500",
+            //         border: "1px solid #cfc7c7",
+            //         minWidth: "450px",
+            //       },
+            //     },
+            //     arrow: {
+            //       sx: {
+            //         color: "#cfc7c7",
+            //       },
+            //     },
+            //   }}
+            //   id={experience?.name}
+            //   title={experience?.desc}
+            //   arrow
+            // >
               <motion.div className="app__skills-exp-item">
                 <div className="app__skills-exp-year">
                   <img
@@ -89,10 +89,11 @@ const Skills = () => {
                   >
                     <h4 className="bold-text">{experience?.name}</h4>
                     <p className="bold-text">{experience?.time} </p>
+                  <p dangerouslySetInnerHTML={{ __html: experience.desc }}></p>
                   </motion.div>
                 </motion.div>
               </motion.div>
-            </Tooltip>
+            // </Tooltip>
           ))}
         </div>
       </div>
