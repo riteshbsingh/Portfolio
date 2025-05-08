@@ -42,7 +42,7 @@ const Navbar = () => {
 
           <li className="app__flex p-text">
             <a
-              href="https://drive.google.com/file/d/185JWB_Kaxrpvb0e0-JsBWBScxec7jxaE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1cm6il_ylE0vHb9LFxcohRrTao4Gu7y-T/view?pli=1"
               target={"_blank"}
               rel="noreferrer"
             >
