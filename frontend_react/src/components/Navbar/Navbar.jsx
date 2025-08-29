@@ -96,7 +96,7 @@ const Navbar = () => {
                 <li>
                   <a
                     onClick={() => setToggle(false)}
-                    href="https://drive.google.com/file/d/185JWB_Kaxrpvb0e0-JsBWBScxec7jxaE/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1gRTvn-6JRC1AlvkWLpHxxfP7ONqoM7te/view?usp=sharing"
                     target={"_blank"}
                     rel="noreferrer"
                   >
@@ -129,7 +129,7 @@ const Navbar = () => {
                     <BsLinkedin />
                   </a>
                   <a
-                    href="https://drive.google.com/file/d/185JWB_Kaxrpvb0e0-JsBWBScxec7jxaE/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1gRTvn-6JRC1AlvkWLpHxxfP7ONqoM7te/view?usp=sharing"
                     target={"_blank"}
                     rel="noreferrer"
                   >
